@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --color-beaver: #9e7f66;
+  --color-gray-100: #5c6779;
+  --color-gray-900: #111111;
+  --color-mirage: #17192b;
+  --color-ebony: #242b37;
+}
+
+.spartan {
+  font-family: "League Spartan", sans-serif;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.h-xl {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: -1px;
+  color: #17192b;
+}
+
+.h-l {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+}
+
+.h-m {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+}
+
+.h-s {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.body-1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.body-2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
